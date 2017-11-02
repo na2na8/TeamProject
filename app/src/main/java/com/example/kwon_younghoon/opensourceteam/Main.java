@@ -194,7 +194,7 @@ public class Main extends AppCompatActivity {
         switch (id) {
             case R.id.choice:
                 dialogforSelect = new DialogforSelect(Main.this, close_Dialog, show_All, show_Image, show_Text);
-//                dialogforSelect.show();
+                dialogforSelect.show();
                 return true;
 //            case R.id.show_image:
 //                Toast.makeText(this, "ff", Toast.LENGTH_SHORT).show();
